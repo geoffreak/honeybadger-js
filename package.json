@@ -17,10 +17,12 @@
     "url": "https://github.com/honeybadger-io/honeybadger-js/issues"
   },
   "scripts": {
+    "minify": "make minify",
     "test": "make test",
     "bump": "bin/bump"
   },
   "devDependencies": {
+    "uglify-js": "~3.3.5",
     "connect": "~3.6.5",
     "grunt": "~1.0.1",
     "grunt-contrib-connect": "~1.0.2",
