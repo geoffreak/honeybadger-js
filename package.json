@@ -17,7 +17,7 @@
     "url": "https://github.com/honeybadger-io/honeybadger-js/issues"
   },
   "scripts": {
-    "minify": "make minify",
+    "build": "make",
     "test": "make test",
     "bump": "bin/bump"
   },
