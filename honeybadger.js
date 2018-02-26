@@ -25,6 +25,11 @@
     }
   })();
 
+  // Set the root to equal window when it doesn't already
+  if (Object.keys(root).length === 0) {
+    root = window;
+  }
+
   // Build the singleton factory. The factory can be accessed through
   // singleton.factory() to instantiate a new instance.
   var factory = function(){
